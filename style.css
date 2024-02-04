@@ -67,4 +67,8 @@ header {
   left: 50%;
   top: 100%;
   transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.svg-btn-div:hover {
+  filter: drop-shadow(0 0 10px #53ffaa);
 }
