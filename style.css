@@ -59,9 +59,11 @@ header {
   line-height: normal;
   letter-spacing: 3.457px;
 }
-.rectangle {
+.rectangle-mob {
 }
-
+.rectangle-des {
+  display: none;
+}
 .svg-btn-div {
   position: absolute;
   left: 50%;
@@ -71,4 +73,31 @@ header {
 }
 .svg-btn-div:hover {
   filter: drop-shadow(0 0 10px #53ffaa);
+}
+
+@media (min-width: 1440px) {
+  .main-container {
+    width: 540px;
+    height: 332px;
+    padding: 48px 48px 79px;
+  }
+  .advice {
+    font-size: 13px;
+  }
+  .advice-id {
+    font-size: 13px;
+  }
+  p {
+    width: 444px;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.3px;
+  }
+  .rectangle-mob {
+    display: none;
+  }
+  .rectangle-des {
+    display: block;
+  }
 }
