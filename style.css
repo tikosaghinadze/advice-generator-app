@@ -37,7 +37,12 @@ p {
 header {
   display: flex;
   justify-content: space-between;
-  gap: 5px;
+  align-items: center;
+  text-align: center;
+  gap: 7px;
+}
+.div-id {
+  display: flex;
 }
 .advice {
   color: var(--Neon-Green, #53ffaa);
@@ -51,15 +56,15 @@ header {
 }
 .advice-id {
   color: var(--Neon-Green, #53ffaa);
-  text-align: center;
-  font-family: Manrope;
   font-size: 11px;
-  font-style: normal;
   font-weight: 800;
-  line-height: normal;
   letter-spacing: 3.457px;
 }
-.rectangle-mob {
+.advice-sign {
+  color: var(--Neon-Green, #53ffaa);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 3.457px;
 }
 .rectangle-des {
   display: none;
@@ -87,6 +92,9 @@ header {
   .advice-id {
     font-size: 13px;
   }
+  .advice-sign {
+    font-size: 13px;
+  }
   p {
     width: 444px;
     font-size: 28px;
@@ -99,5 +107,6 @@ header {
   }
   .rectangle-des {
     display: block;
+    margin-top: 9px;
   }
 }
